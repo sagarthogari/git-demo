@@ -9,7 +9,10 @@ public class controller {
 	public String getMessage() {
 		return "Hello";
 	}
-	
+	@GetMapping("/test2")
+	public String getMessage@() {
+		return "Hello welocme";
+	}
 
 
 }
