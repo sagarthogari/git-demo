@@ -13,6 +13,9 @@ public class controller {
 	public String getMessage@() {
 		return "Hello welocme";
 	}
-
+@GetMapping("/test3")
+	public String getMessage3() {
+		return "Hello welocme java";
+	}
 
 }
